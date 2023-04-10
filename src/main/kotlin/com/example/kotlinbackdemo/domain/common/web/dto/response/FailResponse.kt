@@ -1,4 +1,4 @@
-package com.example.kotlinbackdemo.domain.common.data
+package com.example.kotlinbackdemo.domain.common.web.dto.response
 
 import com.example.kotlinbackdemo.global.Base.BaseResponse
 import com.example.kotlinbackdemo.global.http.ErrorObject

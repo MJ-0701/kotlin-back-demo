@@ -1,5 +1,6 @@
-package com.example.kotlinbackdemo.domain.common.data
+package com.example.kotlinbackdemo.domain.common.web
 
+import com.example.kotlinbackdemo.domain.common.web.dto.response.FailResponse
 import com.example.kotlinbackdemo.global.http.ErrorObject
 
 class CommonException(

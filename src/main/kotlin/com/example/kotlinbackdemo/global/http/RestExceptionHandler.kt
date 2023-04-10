@@ -1,7 +1,7 @@
 package com.example.kotlinbackdemo.global.http
 
-import com.example.kotlinbackdemo.domain.common.data.CommonException
-import com.example.kotlinbackdemo.domain.common.data.FailResponse
+import com.example.kotlinbackdemo.domain.common.web.CommonException
+import com.example.kotlinbackdemo.domain.common.web.dto.response.FailResponse
 import com.example.kotlinbackdemo.global.utils.Logging
 import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpStatus

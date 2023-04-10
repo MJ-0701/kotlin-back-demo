@@ -25,6 +25,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-security")
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-mail")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
@@ -32,6 +33,28 @@ dependencies {
     runtimeOnly("com.mysql:mysql-connector-j")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.springframework.security:spring-security-test")
+
+//    // aws
+//    implementation("com.amazonaws:aws-java-sdk-s3:1.12.61")
+//
+//    // 쿼리로그
+//    implementation("com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.7.1")
+
+    // 페인클라이언트(넷플릭스 msa)
+//    implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+//    implementation("io.github.openfeign:feign-httpclient:11.8")
+
+    // 파일
+    implementation("commons-io:commons-io:2.11.0")
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+
+    // 코루틴 + 웹플럭스
+    implementation("org.springframework.boot:spring-boot-starter-webflux")
+    implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+    testImplementation("io.projectreactor:reactor-test")
 
     // Swagger3.0
     implementation("org.springdoc:springdoc-openapi-ui:1.6.14")
