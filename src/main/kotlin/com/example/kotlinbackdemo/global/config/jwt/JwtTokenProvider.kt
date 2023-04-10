@@ -1,6 +1,6 @@
 package com.example.kotlinbackdemo.global.config.jwt
 
-import com.example.kotlinbackdemo.domain.user.entity.Role
+import com.example.kotlinbackdemo.domain.user.data.entity.Role
 import com.sun.org.apache.xml.internal.security.algorithms.SignatureAlgorithm
 import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jws

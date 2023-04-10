@@ -33,6 +33,10 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.springframework.security:spring-security-test")
 
+    // Swagger3.0
+    implementation("org.springdoc:springdoc-openapi-ui:1.6.14")
+
+
     // jwt
     implementation("com.auth0:java-jwt:3.19.2") // oauth
     implementation("io.jsonwebtoken:jjwt:0.9.1") // okta
